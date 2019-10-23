@@ -83,7 +83,8 @@ $(".img a").click(function(){
 	$(this).toggleClass("heart")
 })
 
-$(".btn-shop").click(function(){
-	$(".addcart").toggleClass("slidedown")
-})
 
+$(".btn-shop").click(function(){
+  var divId = $(this).attr("data-for");
+  $("#" + divId).toggleClass("slidedown");
+});

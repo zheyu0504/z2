@@ -31,12 +31,12 @@ a,a:hover{
 }
 
 .shape{
-	width: 80px;
-	height: 80px;
+	width: 120px;
+	height: 30px;
 	position: absolute;
 	left: 50%;
-	top: 50%;
-	transform: translate(-50%,-50%);
+	top: 90%;
+	transform: translateY(-70%) translateX(-50%);
 	background-color: rgba(12,126,125,0.4)
 }
 
@@ -284,7 +284,7 @@ a,a:hover{
 }
 
 .category-main{
-	width: 60%;
+	width: 70%;
 	display: flex;
 	margin: 0 auto;
 	
@@ -304,7 +304,7 @@ a,a:hover{
 }
 
 .category-box img{
-	height: 400px;
+	height: 500px;
 }
 
 .category-box{
@@ -428,14 +428,17 @@ a,a:hover{
 }
 
 .btn-shop{
-	width: 100%;
+	width: 80%;
 	padding: 5px 30px;
 	text-align: center;
 	border: 3px solid black;
 	border-radius: 10px;
 	transition: 0.5s;
+	margin: 0 auto;
 	margin-bottom: 20px;
 	cursor: pointer;
+	
+	
 }
 
 .btn-shop:hover{
@@ -652,29 +655,22 @@ a,a:hover{
 	
 }
 
-.text-f{
-	
-}
-
 .text-f p{
-	text-align: right;
+	text-align: center;
 	line-height: 50px;
 	margin-bottom: 0;
 }
 
 .icon{
-	text-align: left;
+	text-align: center;
 }
 
 .icon img{
-	width: 35px;
-	height: 35px;
-	margin-top: 10px;
-	margin-left: 25px;
+	width: 50px;
+	height: 50px;
+	margin:20px 15px 0px;
 }
 
 @media screen and (max-width:600px){
-	.icon{
-		text-align: center;
-	}
+	
 }
