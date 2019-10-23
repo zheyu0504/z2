@@ -25,6 +25,7 @@ $("#item1").click(function(){
 	$("#shop2").fadeOut(1)
 	$("#shop3").fadeOut(1)
 	$("#shop4").fadeOut(1)
+	$(".addcart").removeClass("slidedown")
 })
 
 
@@ -33,6 +34,7 @@ $("#item2").click(function(){
 	$("#shop1").fadeOut(1)
 	$("#shop3").fadeOut(1)
 	$("#shop4").fadeOut(1)
+	$(".addcart").removeClass("slidedown")
 })
 
 
@@ -41,6 +43,7 @@ $("#item3").click(function(){
 	$("#shop2").fadeOut(1)
 	$("#shop1").fadeOut(1)
 	$("#shop4").fadeOut(1)
+	$(".addcart").removeClass("slidedown")
 })
 
 
@@ -49,23 +52,38 @@ $("#item4").click(function(){
 	$("#shop2").fadeOut(1)
 	$("#shop3").fadeOut(1)
 	$("#shop1").fadeOut(1)
+	$(".addcart").removeClass("slidedown")
 })
 
 shop=0
 
 $(".btn-shop").click(function(){
 	shop++
-	$("#cart").text("購物車("+shop+")")
+	$("#cart .nav-b").text("購物車("+shop+")")
 })
 
+$("#cart").click(function(){
+	$(".login").fadeIn()
+})
 
+$(".login img").click(function(){
+	$(".login").fadeOut()
+})
 
+$(".btn-login").click(function(){
+	alert("目前沒有網路無法登入")
+	$(".login").fadeOut()
+})
 
+$(".btn-f").click(function(){
+	alert("感謝您的訂閱")
+})
 
+$(".img a").click(function(){
+	$(this).toggleClass("heart")
+})
 
-
-
-
-
-
+$(".btn-shop").click(function(){
+	$(".addcart").toggleClass("slidedown")
+})
 

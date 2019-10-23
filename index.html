@@ -10,6 +10,23 @@
 	
   </head>
   <body>
+
+  
+  <form class="login">
+  	<img src="img/icon/資產 2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
+  	<h2>登入</h2>
+	<input type="text" placeholder="e-mail">
+	<input type="text" placeholder="password">
+	<div class="btn-login">登入</div>
+  </form>
+  
+    
+  <a href="#"><div class="scrolltop">
+  	<img src="img/icon/top.png" alt="">
+	<p>Top</p>
+  </div>
+  </a>
+  
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="padding-left: 30px; background-color: rgba(0,0,0,0.6);"> <a class="navbar-brand" href="#"><img src="img/logo.svg" style="width: 30%;"></a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 	  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent1">
@@ -18,7 +35,7 @@
 		  <li class="nav-item"> <a class="nav-link" href="#category"><div class="nav-b" data-text="Category"><span>商品分類</span></div></a>  </li>
 		  <li class="nav-item"> <a class="nav-link" href="#shop"><div class="nav-b" data-text="Shop"><span>商品展示</span></div></a>  </li>
 		  <li class="nav-item"> <a class="nav-link" href="#event"><div class="nav-b" data-text="Event"><span>精彩活動</span></div></a>  </li>
-		  <li class="nav-item"> <a class="nav-link" href="#"><div class="nav-b" id="cart" data-text="Cart"><span>購物車(0)</span></div></a>  </li>
+		  <li class="nav-item"> <a class="nav-link" href="#" id="cart"><div class="nav-b" data-text="Cart"><span>購物車(0)</span></div></a>  </li>
         </ul>
       </div>
   </nav>
@@ -94,7 +111,7 @@
 			<a href="#shop">
 				<div class="category-box" id="item2">
 					<img src="img/category/2.jpg" alt="">
-					<h2>美味小吃<br><small>fruit</small></h2>
+					<h2>美味小吃<br><small>food</small></h2>
 				</div>
 			</a>
 		</div>
@@ -102,43 +119,66 @@
 			<a href="#shop">
 				<div class="category-box" id="item3">
 					<img src="img/category/3.jpg" alt="">
-					<h2>新鮮肉品<br><small>fruit</small></h2>
+					<h2>新鮮肉品<br><small>meat</small></h2>
 				</div>
 			</a>
 		</div><div class="category-item">
 			<a href="#shop">
 				<div class="category-box" id="item4">
 					<img src="img/category/4.jpg" alt="">
-					<h2>現撈魚獲<br><small>fruit</small></h2>
+					<h2>現撈魚獲<br><small>fish</small></h2>
 				</div>
 			</a>
 		</div>
 		
 	</div>
 	
+	
+	
   </section>
   <div id="shop"></div>
   <section id="shop1">
-  
+  <div class="top"></div>
+	<div class="title">
+		<div class="shape"></div>
+		<h2>香甜水果</h2>
+		<p>FRUIT</p>
+	</div>
   	<div class="container">
 		<div class="row">
-			<div class="col-md-3 col-sm-12 img">
-				<img src="img/fruit/1.jpg" alt="">
+			<div class="col-md-3 col-sm-12 box-s">
+				<div class="img">
+					<div class="addcart"><p>成功加入購物車</p></div>
+					<a class="">❤</a>
+					<img src="img/fruit/1.jpg" alt="">
+				</div>
 				<p>水果</p>
 				<div class="btn-shop">加入購物車</div>
 			</div>
-			<div class="col-md-3 col-sm-12 img">
-				<img src="img/fruit/2.jpg" alt="">
+			<div class="col-md-3 col-sm-12 box-s">
+				<div class="img">
+					<div class="addcart"><p>成功加入購物車</p></div>
+					<a class="">❤</a>
+					<img src="img/fruit/2.jpg" alt="">
+				</div>
 				<p>水果</p>
 				<div class="btn-shop">加入購物車</div>
 			</div>
-			<div class="col-md-3 col-sm-12 img">
-				<img src="img/fruit/3.jpg" alt="">
+			<div class="col-md-3 col-sm-12 box-s">
+				<div class="img">	
+					<div class="addcart"><p>成功加入購物車</p></div>
+					<a class="">❤</a>
+					<img src="img/fruit/3.jpg" alt="">
+				</div>
 				<p>水果</p>
 				<div class="btn-shop">加入購物車</div>
 			</div>
-			<div class="col-md-3 col-sm-12 img">
-				<img src="img/fruit/4.jpg" alt="">
+			<div class="col-md-3 col-sm-12 box-s">
+				<div class="img">	
+					<div class="addcart"><p>成功加入購物車</p></div>	
+					<a class="">❤</a>
+					<img src="img/fruit/4.jpg" alt="">
+				</div>
 				<p>水果</p>
 				<div class="btn-shop">加入購物車</div>
 			</div>
@@ -148,26 +188,47 @@
   </section>
   
   <section id="shop2" style="display: none;">
-  
+  <div class="top"></div>
+	<div class="title">
+		<div class="shape"></div>
+		<h2>美味小吃</h2>
+		<p>FOOD</p>
+	</div>
   	<div class="container">
 		<div class="row">
-			<div class="col-md-3 col-sm-12 img">
-				<img src="img/food/1.jpg" alt="">
+			<div class="col-md-3 col-sm-12 box-s">
+				<div class="img">	
+					<div class="addcart"><p>成功加入購物車</p></div>
+					<a class="">❤</a>
+					<img src="img/food/1.jpg" alt="">
+				</div>
 				<p>小吃</p>
 				<div class="btn-shop">加入購物車</div>
 			</div>
-			<div class="col-md-3 col-sm-12 img">
-				<img src="img/food/2.jpg" alt="">
+			<div class="col-md-3 col-sm-12 box-s">
+				<div class="img">	
+					<div class="addcart"><p>成功加入購物車</p></div>
+					<a class="">❤</a>
+					<img src="img/food/2.jpg" alt="">
+				</div>
 				<p>小吃</p>
 				<div class="btn-shop">加入購物車</div>
 			</div>
-			<div class="col-md-3 col-sm-12 img">
-				<img src="img/food/3.jpg" alt="">
+			<div class="col-md-3 col-sm-12 box-s">
+				<div class="img">
+					<div class="addcart"><p>成功加入購物車</p></div>
+					<a class="">❤</a>
+					<img src="img/food/3.jpg" alt="">
+				</div>
 				<p>小吃</p>
 				<div class="btn-shop">加入購物車</div>
 			</div>
-			<div class="col-md-3 col-sm-12 img">
-				<img src="img/food/4.jpg" alt="">
+			<div class="col-md-3 col-sm-12 box-s">
+				<div class="img">
+					<div class="addcart"><p>成功加入購物車</p></div>
+					<a class="">❤</a>
+					<img src="img/food/4.jpg" alt="">
+				</div>
 				<p>小吃</p>
 				<div class="btn-shop">加入購物車</div>
 			</div>
@@ -177,26 +238,47 @@
   </section>
   
    <section id="shop3" style="display: none;">
-  
+   <div class="top"></div>
+	<div class="title">
+		<div class="shape"></div>
+		<h2>新鮮肉品</h2>
+		<p>MEAT</p>
+	</div>
   	<div class="container">
 		<div class="row">
-			<div class="col-md-3 col-sm-12 img">
-				<img src="img/meat/1.jpg" alt="">
+			<div class="col-md-3 col-sm-12 box-s">
+				<div class="img">	
+					<div class="addcart"><p>成功加入購物車</p></div>
+					<a class="">❤</a>
+					<img src="img/meat/1.jpg" alt="">
+				</div>
 				<p>肉類</p>
 				<div class="btn-shop">加入購物車</div>
 			</div>
-			<div class="col-md-3 col-sm-12 img">
-				<img src="img/meat/2.jpg" alt="">
+			<div class="col-md-3 col-sm-12 box-s">
+				<div class="img">	
+					<div class="addcart"><p>成功加入購物車</p></div>
+					<a class="">❤</a>
+					<img src="img/meat/2.jpg" alt="">
+				</div>
 				<p>肉類</p>
 				<div class="btn-shop">加入購物車</div>
 			</div>
-			<div class="col-md-3 col-sm-12 img">
-				<img src="img/meat/3.jpg" alt="">
+			<div class="col-md-3 col-sm-12 box-s">
+				<div class="img">	
+					<div class="addcart"><p>成功加入購物車</p></div>
+					<a class="">❤</a>
+					<img src="img/meat/3.jpg" alt="">
+				</div>
 				<p>肉類</p>
 				<div class="btn-shop">加入購物車</div>
 			</div>
-			<div class="col-md-3 col-sm-12 img">
-				<img src="img/meat/4.jpg" alt="">
+			<div class="col-md-3 col-sm-12 box-s">
+				<div class="img">	
+					<div class="addcart"><p>成功加入購物車</p></div>
+					<a class="">❤</a>
+					<img src="img/meat/4.jpg" alt="">
+				</div>
 				<p>肉類</p>
 				<div class="btn-shop">加入購物車</div>
 			</div>
@@ -206,26 +288,47 @@
   </section>
   
     <section id="shop4" style="display: none;">
-  
+	<div class="top"></div>
+	<div class="title">
+		<div class="shape"></div>
+		<h2>現撈魚獲</h2>
+		<p>FISH</p>
+	</div>
   	<div class="container">
 		<div class="row">
-			<div class="col-md-3 col-sm-12 img">
-				<img src="img/fish/1.jpg" alt="">
+			<div class="col-md-3 col-sm-12 box-s">
+				<div class="img">	
+					<div class="addcart"><p>成功加入購物車</p></div>
+					<a class="">❤</a>
+					<img src="img/fish/1.jpg" alt="">
+				</div>
 				<p>魚獲</p>
 				<div class="btn-shop">加入購物車</div>
 			</div>
-			<div class="col-md-3 col-sm-12 img">
-				<img src="img/fish/2.jpg" alt="">
+			<div class="col-md-3 col-sm-12 box-s">
+				<div class="img">	
+					<div class="addcart"><p>成功加入購物車</p></div>
+					<a class="">❤</a>
+					<img src="img/fish/2.jpg" alt="">
+				</div>
 				<p>魚獲</p>
 				<div class="btn-shop">加入購物車</div>
 			</div>
-			<div class="col-md-3 col-sm-12 img">
-				<img src="img/fish/1.jpg" alt="">
+			<div class="col-md-3 col-sm-12 box-s">
+				<div class="img">	
+					<div class="addcart"><p>成功加入購物車</p></div>
+					<a class="">❤</a>
+					<img src="img/fish/1.jpg" alt="">
+				</div>
 				<p>魚獲</p>
 				<div class="btn-shop">加入購物車</div>
 			</div>
-			<div class="col-md-3 col-sm-12 img">
-				<img src="img/fish/2.jpg" alt="">
+			<div class="col-md-3 col-sm-12 box-s">
+				<div class="img">	
+					<div class="addcart"><p>成功加入購物車</p></div>
+					<a class="">❤</a>
+					<img src="img/fish/2.jpg" alt="">
+				</div>
 				<p>魚獲</p>
 				<div class="btn-shop">加入購物車</div>
 			</div>

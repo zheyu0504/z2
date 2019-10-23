@@ -46,6 +46,75 @@ a,a:hover{
 	font-weight: 700;
 }
 
+.login{
+	position: fixed;
+	display: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 25%;
+	height: 70%;
+	background: #fff;
+	z-index: 999;
+	padding: 130px 30px;
+}
+
+.login h2{
+	text-align: center;
+}
+
+.login input{
+	width: 100%;
+	height: 50px;;
+	background: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+.login input:focus,.login input:active{
+	
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+.btn-login{
+	width: 100%;
+	margin-top: 30px;
+	background: rgba(0,220,255,1.00);
+	border-radius: 5px;
+	text-align: center;
+	padding: 10px 0px;
+	transition: 0.5s;
+	outline: none;
+}
+
+
+.btn-login:hover{
+	transform: scale(1.1);
+}
+
+.btn-login:active{
+	transform: scale(1);
+}
+
+.scrolltop{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+.scrolltop img{
+	width: 100px;
+}
+
+.scrolltop p{
+	position: absolute;
+	bottom: 0;
+	right: 20px;
+	color: #fff;
+	font-weight: 700;
+}
+
 /*nav*/
 
 .nav-b{
@@ -155,7 +224,7 @@ a,a:hover{
 	left: 0;
 	width:100%;
 	height: 100%;
-	background-color: rgba(241,41,41,1.00);
+	background-color: rgba(67,187,59,1.00);
 	transform-origin: top;
 	transform: scaleY(0);
 	transition: 0.5s transform;
@@ -265,14 +334,94 @@ a,a:hover{
 
 /*shop*/
 
+.img{
+	position: relative;
+	overflow: hidden;
+}
+
 
 .img img{
 	max-height: 385px;
-	border-radius: 15px;
 	width: 100%;
+	border-radius: 15px;
 }
 
-.img p{
+.addcart{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 15px;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.60);
+	padding: 120px 50px;
+	transform: translateY(-100%);
+}
+
+.addcart p{
+	color: #000;
+	font-weight: 800;
+	font-size: 2em;
+}
+
+.slidedown{
+	animation: slidedown 4s ease-out;
+}
+
+@keyframes slidedown{
+	0%{
+		transform: translateY(-100%);
+	}
+	20%{
+		transform: translateY(0%);
+	}
+	30%{
+		transform: translateY(0%);
+	}
+	40%{
+		transform: translateY(0%);
+	}
+	100%{
+		transform: translateY(-100%);
+	}
+}
+
+.heart{
+	animation: heart 0.5s linear;
+	animation-fill-mode:forwards;
+	text-shadow: 0px 0px 40px #000;
+}
+
+@keyframes heart{
+	0%{
+		transform: rotate(0deg) scale(1.7)
+	}
+	40%{
+		transform: rotate(0deg) scale(1)
+	}
+	41%{
+		transform: rotate(360deg) scale(1)
+	}
+	100%{
+		transform: rotate(0deg) scale(1);
+		color: rgba(255,0,4,1.00);
+	}
+}
+
+.box-s .img a:hover{
+	color: rgba(255,255,255,1.00);
+}
+
+.box-s .img a{
+	position: absolute;
+	bottom: 0;
+	font-size: 40px;
+	color: rgba(255,255,255,1.00);
+	right: 10px;
+	text-shadow: 0px 0px 40px #000;
+}
+
+.box-s p{
 	text-align: center;
 	margin-bottom: 5px;
 	margin-top: 20px;
@@ -286,6 +435,7 @@ a,a:hover{
 	border-radius: 10px;
 	transition: 0.5s;
 	margin-bottom: 20px;
+	cursor: pointer;
 }
 
 .btn-shop:hover{
@@ -477,6 +627,7 @@ a,a:hover{
 	border-radius: 10px;
 	transition: 0.5s;
 	margin-top: 20px;
+	cursor: pointer;
 }
 
 .btn-f:hover{
@@ -501,21 +652,25 @@ a,a:hover{
 	
 }
 
+.text-f{
+	
+}
+
 .text-f p{
-	text-align: center;
+	text-align: right;
 	line-height: 50px;
 	margin-bottom: 0;
 }
 
 .icon{
-	text-align: right;
+	text-align: left;
 }
 
 .icon img{
 	width: 35px;
 	height: 35px;
 	margin-top: 10px;
-	margin-left: 15px;
+	margin-left: 25px;
 }
 
 @media screen and (max-width:600px){
