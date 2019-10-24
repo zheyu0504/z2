@@ -85,6 +85,13 @@ $(".img a").click(function(){
 
 
 $(".btn-shop").click(function(){
-  var divId = $(this).attr("data-for");
-  $("#" + divId).toggleClass("slidedown");
+  var divClass = $(this).attr("data-for");
+  $("." + divClass).toggleClass("slidedown");
 });
+
+$(".infor-icon").click(function(){
+	var divClass = $(this).attr("data-for");
+  $("." + divClass).toggleClass("infor-ani");
+});
+
+
