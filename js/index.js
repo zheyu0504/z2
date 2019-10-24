@@ -94,4 +94,15 @@ $(".infor-icon").click(function(){
   $("." + divClass).toggleClass("infor-ani");
 });
 
+$(".btn-e").click(function(){
+	$(".sign-e").fadeIn()
+})
 
+$(".sign-e img").click(function(){
+	$(".sign-e").fadeOut()
+})
+
+$(".btn-sign").click(function(){
+	alert("資料已送出")
+	$(".sign-e").fadeOut()
+})

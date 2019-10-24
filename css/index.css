@@ -453,7 +453,7 @@ a,a:hover{
 }
 
 .infor-ani{	
-	animation: infor 2s ; 
+	animation: infor 1s ; 
 	animation-fill-mode: forwards;
 }	
 
@@ -514,10 +514,10 @@ a,a:hover{
 		max-height: 600px;
 	}
 	.addcart p{	
-		font-size: 3em;
+		font-size: 4em;
 	}
 	.addcart img{
-		margin-left: 75px;
+		margin-left: 35%;
 	}
 }
 
@@ -547,6 +547,72 @@ a,a:hover{
 	}
 }
 */
+
+.sign-e{
+	width: 30%;
+	height: 60%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 15px;
+	position: fixed;
+	background: rgba(255,255,255);
+	z-index: 999;
+}
+.btn-sign{
+	width: 80%;
+	padding: 5px 30px;
+	text-align: center;
+	border-radius: 10px;
+	transition: 0.5s;
+	margin: 0 auto;
+	margin-top: 20px;
+	cursor: pointer;
+	background-color: rgba(67,187,59,1.00);
+}
+
+.btn-sign:hover{
+	transform: scale(1.1);
+}
+
+.btn-sign:active{
+	transform: scale(1);
+}
+
+
+.container input{
+	width: 100%;
+	margin-bottom: 20px;
+	border: none;
+	border-bottom: 1px rgba(0,0,0,1.00) solid;
+	background: transparent;
+	width: 100%;
+	height: 30px;
+	font-size: 16px;
+	outline: none;
+}
+
+.btn-e{
+	width: 80%;
+	padding: 5px 30px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 10px;
+	transition: 0.5s;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	cursor: pointer;
+	background-color: rgba(67,187,59,1.00);
+}
+
+.btn-e:hover{
+	transform: scale(1.1);
+}
+
+.btn-e:active{
+	transform: scale(1);
+}
+
 
 .box2{
 	position: relative;
@@ -642,6 +708,10 @@ a,a:hover{
 	}
 	.box2{
 		margin-bottom: 20px;
+	}
+	.sign-e{
+		width: 100%;
+		height: 70%;
 	}
 }
 
