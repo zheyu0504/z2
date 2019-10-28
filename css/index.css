@@ -31,12 +31,12 @@ a,a:hover{
 }
 
 .shape{
-	width: 120px;
-	height: 30px;
+	width: 180px;
+	height: 50px;
 	position: absolute;
 	left: 50%;
-	top: 90%;
-	transform: translateY(-65%) translateX(-50%);
+	top: -10%;
+	transform:translateX(-53%);
 	background-color: rgba(12,126,125,0.4);
 	
 }
@@ -83,6 +83,7 @@ a,a:hover{
 	margin-top: 30px;
 	background: rgba(0,220,255,1.00);
 	border-radius: 5px;
+	border: none;
 	text-align: center;
 	padding: 10px 0px;
 	transition: 0.5s;
@@ -238,7 +239,7 @@ a,a:hover{
 	left: 0;
 	width:100%;
 	height: 100%;
-	background-color: rgba(67,187,59,1.00);
+	background-color: rgba(89,168,69,1.00);
 	transform-origin: top;
 	transform: scaleY(0);
 	transition: 0.5s transform;
@@ -560,19 +561,19 @@ a,a:hover{
 	z-index: 999;
 }
 .btn-sign{
-	width: 80%;
+	width: 100%;
 	padding: 5px 30px;
 	text-align: center;
 	border-radius: 10px;
 	transition: 0.5s;
-	margin: 0 auto;
+	border: none;
 	margin-top: 20px;
 	cursor: pointer;
 	background-color: rgba(67,187,59,1.00);
 }
 
 .btn-sign:hover{
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 
 .btn-sign:active{
@@ -586,7 +587,6 @@ a,a:hover{
 	border: none;
 	border-bottom: 1px rgba(0,0,0,1.00) solid;
 	background: transparent;
-	width: 100%;
 	height: 30px;
 	font-size: 16px;
 	outline: none;
@@ -765,6 +765,7 @@ a,a:hover{
 	width: 100%;
 	padding: 5px 30px;
 	text-align: center;
+	background: transparent;
 	border: 3px solid black;
 	border-radius: 10px;
 	transition: 0.5s;

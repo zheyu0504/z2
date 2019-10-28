@@ -5,8 +5,7 @@ function auto(){
 	time++
 	if(time>2){
 		time=0
-	}
-	
+	}	
 	$(".show img").fadeOut(400, function(){
 		$(".show img").attr("src","img/slide/"+time+".jpg")
 		$(".show img").fadeIn()
@@ -72,7 +71,6 @@ $(".login img").click(function(){
 
 $(".btn-login").click(function(){
 	alert("目前沒有網路無法登入")
-	$(".login").fadeOut()
 })
 
 $(".btn-f").click(function(){
@@ -104,5 +102,4 @@ $(".sign-e img").click(function(){
 
 $(".btn-sign").click(function(){
 	alert("資料已送出")
-	$(".sign-e").fadeOut()
 })

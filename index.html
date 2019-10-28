@@ -19,9 +19,9 @@
 				<h2>登入</h2>
 				<p>SIGN IN</p>
 			</div>
-	<input type="text" placeholder="e-mail">
-	<input type="text" placeholder="password">
-	<div class="btn-login">登入</div>
+	<input type="text" placeholder="e-mail" required>
+	<input type="text" placeholder="password" required  >
+	<button type="submit" class="btn-login" >登入</button>
   </form>
   
   <div class="sign-e" style="display: none;">
@@ -35,29 +35,29 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6 text-center">
-					<input type="text"  placeholder="姓名">
+					<input type="text" placeholder="姓名" required>
 				</div>
 				<div class="col-md-6 text-center">
-					<input type="text"  placeholder="性別">
+					<input type="text" placeholder="性別" required>
 				</div>
 				
 			</div>
 			<div class="row">
 				<div class="col-md-6 text-center ">
-					<input type="text" placeholder="電子郵件">
+					<input type="text" placeholder="電子郵件" required>
 				</div>
 				<div class="col-md-6 text-center">
-					<input type="text" placeholder="手機號碼">
+					<input type="text" placeholder="手機號碼" required>
 				</div>
 			</div>
       		<div class="row">
 				<div class="col-md-12 text-center">
-					<input type="text" placeholder="住址">
+					<input type="text" placeholder="住址" required>
 				</div>
 				
 			</div>
 			
-			<div class="btn-sign">送出</div>
+			<button type="submit" class="btn-sign">送出</button>
 			
       </form>
    </div> 
@@ -86,13 +86,11 @@
   	<div class="show">
 		<img src="img/slide/0.jpg" alt="">
 	</div>
-<!--
   	<div class="turn">
 		<img src="img/turn/1.png" alt="">
 		<img src="img/turn/2.png" alt="">
 		<img src="img/turn/3.png" alt="">
 	</div>
--->
   </section>
   
   <section id="mean">
@@ -573,8 +571,10 @@
 			<div class="col-md-4 col-sm-12 f3">
 				<h2>訂閱電子報</h2>
 				<p>訂閱電子報，讓你獲得最新的訊息</p>
-				<input type="text" placeholder="請輸入電子郵件">
-				<div class="btn-f">送出</div>
+				<form>
+					<input type="text" placeholder="請輸入電子郵件" required>
+					<button class="btn-f">送出</button>
+				</form>
 				<div class="icon">
 					<img src="img/icon/fb.svg" alt="">
 					<img src="img/icon/google.svg" alt="">
