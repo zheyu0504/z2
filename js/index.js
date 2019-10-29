@@ -89,8 +89,10 @@ $(".btn-shop").click(function(){
 
 $(".infor-icon").click(function(){
 	var divClass = $(this).attr("data-for");
+	$(".infor").removeClass("infor-ani")
   $("." + divClass).toggleClass("infor-ani");
 });
+
 
 $(".btn-e").click(function(){
 	$(".sign-e").fadeIn()
