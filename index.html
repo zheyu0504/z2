@@ -25,7 +25,7 @@
   </form>
   
   <div class="sign-e" style="display: none;">
-	<form class="container">
+	<form class="container" onclick="return false" id="form1">
 			<img src="img/icon/資產 2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 			<div style="height: 50px;" ></div>
 			<div class="title">
@@ -35,24 +35,24 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6 text-center">
-					<input type="text" placeholder="姓名" required>
+					<input type="text" placeholder="姓名" id="name" required>
 				</div>
 				<div class="col-md-6 text-center">
-					<input type="text" placeholder="性別" required>
+					<input type="text" placeholder="性別" id="sex" required>
 				</div>
 				
 			</div>
 			<div class="row">
 				<div class="col-md-6 text-center ">
-					<input type="text" placeholder="電子郵件" required>
+					<input type="text" placeholder="電子郵件" id="mail" required>
 				</div>
 				<div class="col-md-6 text-center">
-					<input type="text" placeholder="手機號碼" required>
+					<input type="text" placeholder="手機號碼" id="phone" required>
 				</div>
 			</div>
       		<div class="row">
 				<div class="col-md-12 text-center">
-					<input type="text" placeholder="住址" required>
+					<input type="text" placeholder="住址" id="address" required>
 				</div>
 				
 			</div>
@@ -69,7 +69,7 @@
   </div>
   </a>
   
-	<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="padding-left: 30px; background-color: rgba(0,0,0,0.6);"> <a class="navbar-brand" href="#"><img src="img/logo.svg" style="width: 30%;"></a>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="padding-left: 30px; background-color: rgba(0,0,0,0.6);"> <a class="navbar-brand" href="#"><img src="img/logo.png" style="width: 15%;"></a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 	  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent1">
 	    <ul class="navbar-nav">
@@ -87,9 +87,9 @@
 		<img src="img/slide/0.jpg" alt="">
 	</div>
   	<div class="turn">
-		<img src="img/turn/1.png" alt="">
-		<img src="img/turn/2.png" alt="">
-		<img src="img/turn/3.png" alt="">
+		<img src="img/turn/1.svg" alt="">
+		<img src="img/turn/2.svg" alt="">
+		<img src="img/turn/3.svg" alt="">
 	</div>
   </section>
   
@@ -193,13 +193,15 @@
 					<div class="addcart 1"><p>成功加入購物車</p><img src="img/icon/OK.svg" alt=""></div>
 					<div class="infor-icon " data-for="5"><img src="img/icon/infor.svg"></div>
 					<div class="infor 5" >
+						<img src="img/icon/exit2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 						<h2>商品資訊</h2>
-						<p>123123132123123</p>
+						<p>採用台灣當地新鮮現採的橘子沖泡而成，香甜且清爽的口感 
+搭配上蜂蜜混合起來，是您最棒的選擇。</p>
 					</div>
 					<a class="">❤</a>
 					<img src="img/fruit/1.jpg" alt="">
 				</div>
-				<p>水果</p>
+				<p>橘子茶</p>
 				<div class="btn-shop" data-for="1">加入購物車</div>
 			</div>
 			<div class="col-md-3 col-sm-12 box-s">
@@ -207,13 +209,15 @@
 					<div class="addcart 2"><p>成功加入購物車</p><img src="img/icon/OK.svg" alt=""></div>
 					<div class="infor-icon " data-for="6"><img src="img/icon/infor.svg"></div>
 				  <div class="infor 6" >
+					  	<img src="img/icon/exit2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 						<h2>商品資訊</h2>
-						<p>123123132123123</p>
+						<p>此西瓜是生長在台灣南部的熱帶地區
+因為天氣炎熱的關係，逐漸成熟唯一顆甜美多汁又可口的西瓜</p>
 					</div>
 				  <a class="">❤</a>
 					<img src="img/fruit/2.jpg" alt="">
 				</div>
-				<p>水果</p>
+				<p>帝王西瓜</p>
 				<div class="btn-shop" data-for="2">加入購物車</div>
 			</div>
 			<div class="col-md-3 col-sm-12 box-s">
@@ -221,13 +225,15 @@
 					<div class="addcart 3"><p>成功加入購物車</p><img src="img/icon/OK.svg" alt=""></div>
 					<div class="infor-icon " data-for="7"><img src="img/icon/infor.svg"></div>
 				  <div class="infor 7" >
+					  	<img src="img/icon/exit2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 						<h2>商品資訊</h2>
-						<p>123123132123123</p>
+						<p>此西瓜是生長在台灣南部的熱帶地區
+因為天氣炎熱的關係，逐漸成熟唯一顆甜美多汁又可口的西瓜</p>
 					</div>
 				  <a class="">❤</a>
 					<img src="img/fruit/3.jpg" alt="">
 				</div>
-				<p>水果</p>
+				<p>小玉西瓜</p>
 				<div class="btn-shop" data-for="3">加入購物車</div>
 			</div>
 			<div class="col-md-3 col-sm-12 box-s">
@@ -235,13 +241,15 @@
 					<div class="addcart 4"><p>成功加入購物車</p><img src="img/icon/OK.svg" alt=""></div>
 					<div class="infor-icon " data-for="8"><img src="img/icon/infor.svg"></div>
 				  <div class="infor 8" >
+					  	<img src="img/icon/exit2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 						<h2>商品資訊</h2>
-						<p>123123132123123</p>
+						<p>在台灣高海拔地區種植，經過農民辛苦栽培，堅持無農藥有機栽培，
+逐漸成熟唯一顆金黃且多汁的黃金橘子，成為台灣的外銷冠軍</p>
 					</div>
 				  <a class="">❤</a>
 					<img src="img/fruit/4.jpg" alt="">
 				</div>
-				<p>水果</p>
+				<p>黃金橘子</p>
 				<div class="btn-shop" data-for="4">加入購物車</div>
 			</div>
 		</div>
@@ -263,13 +271,17 @@
 					<div class="addcart 1"><p>成功加入購物車</p><img src="img/icon/OK.svg" alt=""></div>
 					<div class="infor-icon " data-for="5"><img src="img/icon/infor.svg"></div>
 					<div class="infor 5" >
+						<img src="img/icon/exit2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 						<h2>商品資訊</h2>
-						<p>123123132123123</p>
+						<p>
+這是一家家喻戶曉的燒烤，採用自家傳承多年的自制烤肉醬汁
+食材都是每天早上去市場進貨，保證新鮮，由老闆的手藝製作
+出的食材每樣都昇華了起來。</p>
 					</div>
 				  <a class="">❤</a>
 					<img src="img/food/1.jpg" alt="">
 				</div>
-				<p>小吃</p>
+				<p>燒烤俠</p>
 				<div class="btn-shop" data-for="1">加入購物車</div>
 			</div>
 			<div class="col-md-3 col-sm-12 box-s">
@@ -277,13 +289,15 @@
 					<div class="addcart 2"><p>成功加入購物車</p><img src="img/icon/OK.svg" alt=""></div>
 					<div class="infor-icon " data-for="6"><img src="img/icon/infor.svg"></div>
 					<div class="infor 6" >
+						<img src="img/icon/exit2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 						<h2>商品資訊</h2>
-						<p>123123132123123</p>
+						<p>炸機是現代人最喜歡的食物，這是一間樸實無華的炸機店，表面上是這樣子
+但是重要的是，老闆手藝所炸出來的炸雞，不是速食店那種貨色比得上的。</p>
 					</div>
 				  <a class="">❤</a>
 					<img src="img/food/2.jpg" alt="">
 				</div>
-				<p>小吃</p>
+				<p>炸機勇者</p>
 				<div class="btn-shop" data-for="2">加入購物車</div>
 			</div>
 			<div class="col-md-3 col-sm-12 box-s">
@@ -291,13 +305,15 @@
 					<div class="addcart 3"><p>成功加入購物車</p><img src="img/icon/OK.svg" alt=""></div>
 					<div class="infor-icon " data-for="7"><img src="img/icon/infor.svg"></div>
 					<div class="infor 7" >
+						<img src="img/icon/exit2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 						<h2>商品資訊</h2>
-						<p>123123132123123</p>
+						<p>給不吃肉的客人們美好的選擇，眼前好多甜美的食物卻只能看不能吃很痛苦對吧?
+這裡我們提供了素食蓋飯，愛吃素食的朋友或者只能吃素的朋友務必品嘗看看。</p>
 					</div>
 				  <a class="">❤</a>
 					<img src="img/food/3.jpg" alt="">
 				</div>
-				<p>小吃</p>
+				<p>素食蓋飯...吧?</p>
 				<div class="btn-shop" data-for="3">加入購物車</div>
 			</div>
 			<div class="col-md-3 col-sm-12 box-s">
@@ -305,13 +321,17 @@
 					<div class="addcart 4"><p>成功加入購物車</p><img src="img/icon/OK.svg" alt=""></div>
 					<div class="infor-icon " data-for="8"><img src="img/icon/infor.svg"></div>
 					<div class="infor 8" >
+						<img src="img/icon/exit2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 						<h2>商品資訊</h2>
-						<p>123123132123123</p>
+						<p>
+這個看似高檔牛排，但其實是隱身於夜市的平價牛排，老闆主大便宜吃到飽卻又不失口感
+外皮煎至焦脆內部卻粉嫩多汁，一口咬下肉汁與鮮甜在嘴巴裡炸裂，不花太多錢也能活在幸福的饗宴。</p>
 					</div>
 				  <a class="">❤</a>
 					<img src="img/food/4.jpg" alt="">
 				</div>
-				<p>小吃</p>
+				<p>
+鮮嫩多汁絕對不是小吃超貴牛排</p>
 				<div class="btn-shop" data-for="4">加入購物車</div>
 			</div>
 		</div>
@@ -333,6 +353,7 @@
 					<div class="addcart 1"><p>成功加入購物車</p><img src="img/icon/OK.svg" alt=""></div>
 					<div class="infor-icon " data-for="5"><img src="img/icon/infor.svg"></div>
 					<div class="infor 5" >
+						<img src="img/icon/exit2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 						<h2>商品資訊</h2>
 						<p>123123132123123</p>
 					</div>
@@ -347,6 +368,7 @@
 					<div class="addcart 2"><p>成功加入購物車</p><img src="img/icon/OK.svg" alt=""></div>
 					<div class="infor-icon " data-for="6"><img src="img/icon/infor.svg"></div>
 					<div class="infor 6" >
+						<img src="img/icon/exit2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 						<h2>商品資訊</h2>
 						<p>123123132123123</p>
 					</div>
@@ -361,6 +383,7 @@
 					<div class="addcart 3"><p>成功加入購物車</p><img src="img/icon/OK.svg" alt=""></div>
 					<div class="infor-icon " data-for="7"><img src="img/icon/infor.svg"></div>
 					<div class="infor 7" >
+						<img src="img/icon/exit2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 						<h2>商品資訊</h2>
 						<p>123123132123123</p>
 					</div>
@@ -375,6 +398,7 @@
 					<div class="addcart 4"><p>成功加入購物車</p><img src="img/icon/OK.svg" alt=""></div>
 					<div class="infor-icon " data-for="8"><img src="img/icon/infor.svg"></div>
 					<div class="infor 8" >
+						<img src="img/icon/exit2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 						<h2>商品資訊</h2>
 						<p>123123132123123</p>
 					</div>
@@ -403,6 +427,7 @@
 					<div class="addcart 1"><p>成功加入購物車</p><img src="img/icon/OK.svg" alt=""></div>
 					<div class="infor-icon " data-for="5"><img src="img/icon/infor.svg"></div>
 					<div class="infor 5" >
+						<img src="img/icon/exit2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 						<h2>商品資訊</h2>
 						<p>123123132123123</p>
 					</div>
@@ -417,6 +442,7 @@
 					<div class="addcart 2"><p>成功加入購物車</p><img src="img/icon/OK.svg" alt=""></div>
 					<div class="infor-icon " data-for="6"><img src="img/icon/infor.svg"></div>
 					<div class="infor 6" >
+						<img src="img/icon/exit2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 						<h2>商品資訊</h2>
 						<p>123123132123123</p>
 					</div>
@@ -431,6 +457,7 @@
 					<div class="addcart 3"><p>成功加入購物車</p><img src="img/icon/OK.svg" alt=""></div>
 					<div class="infor-icon " data-for="7"><img src="img/icon/infor.svg"></div>
 					<div class="infor 7" >
+						<img src="img/icon/exit2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 						<h2>商品資訊</h2>
 						<p>123123132123123</p>
 					</div>
@@ -445,6 +472,7 @@
 					<div class="addcart 4"><p>成功加入購物車</p><img src="img/icon/OK.svg" alt=""></div>
 					<div class="infor-icon " data-for="8"><img src="img/icon/infor.svg"></div>
 					<div class="infor 8" >
+						<img src="img/icon/exit2.svg" style="position: absolute; top:0; right: 0; width: 10%;">
 						<h2>商品資訊</h2>
 						<p>123123132123123</p>
 					</div>

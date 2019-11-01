@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 450.7 449.3" style="enable-background:new 0 0 450.7 449.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#8FC31F;stroke:#8FC31F;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{display:inline;fill:none;stroke:#8FC31F;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{display:inline;fill:#22AC38;stroke:#8FC31F;stroke-miterlimit:10;}
+	.st4{font-family:'MicrosoftJhengHeiLight';}
+	.st5{font-size:61.5428px;}
+	.st6{display:inline;fill:none;stroke:#8FC31F;stroke-width:4;stroke-miterlimit:10;}
+	.st7{fill:#8FC31F;stroke:#8FC31F;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#8FC31F;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g class="st0">
+	<circle class="st1" cx="224.4" cy="194.7" r="6.8"/>
+	<circle class="st1" cx="224.6" cy="175.1" r="6.8"/>
+	<rect x="212.1" y="213.6" class="st1" width="25.1" height="39.9"/>
+	<path class="st2" d="M259.7,253.5h-70.3v-2.8c6.4-34.7,7.6-71.2,0-110.6v-4.2h70.3v4.6c-6.2,38.2-6.2,74.3,0,108.8V253.5z"/>
+	<polygon class="st2" points="164.5,135.9 223.4,77 282.3,135.9 	"/>
+</g>
+<g class="st0">
+	<line class="st2" x1="23.5" y1="210.3" x2="93.8" y2="139.9"/>
+	<line class="st2" x1="93.8" y1="139.9" x2="116.8" y2="162.9"/>
+	<line class="st2" x1="93.2" y1="202.6" x2="148.2" y2="147.6"/>
+	<line class="st2" x1="148.2" y1="147.6" x2="162.1" y2="161.5"/>
+	<line class="st2" x1="263.7" y1="200.8" x2="298.1" y2="235.2"/>
+	<line class="st2" x1="276.7" y1="203.9" x2="360" y2="147.3"/>
+	<line class="st2" x1="360" y1="147.3" x2="407.3" y2="175.6"/>
+</g>
+<g class="st0">
+	<path class="st2" d="M34.1,337.3c38.4,65.2,109.4,109,190.5,109s152.1-43.8,190.5-109"/>
+	<path class="st2" d="M8.8,273.3c-3.4-15.5-5.3-31.5-5.3-48c0-122,99-221,221-221c122.1,0,221,99,221,221c0,16.5-1.8,32.5-5.2,48"/>
+	<text transform="matrix(1 0 0 1 8.8499 322.4476)" class="st3 st4 st5">台灣產業新勢力</text>
+	<line class="st6" x1="146" y1="380.3" x2="304" y2="380.3"/>
+</g>
+<g>
+	<circle class="st7" cx="225.2" cy="116.6" r="5"/>
+	
+		<rect x="227.8" y="69.8" transform="matrix(-0.6904 0.7234 -0.7234 -0.6904 498.8013 -57.9193)" class="st8" width="68" height="16"/>
+	<line class="st8" x1="238.6" y1="102.6" x2="225.2" y2="116.6"/>
+	
+		<rect x="229.8" y="146" transform="matrix(-0.7234 -0.6904 0.6904 -0.7234 348.4034 447.4893)" class="st8" width="68" height="16"/>
+	<line class="st8" x1="239" y1="130.8" x2="225" y2="117.4"/>
+	<rect x="153.4" y="148" transform="matrix(0.6904 -0.7234 0.7234 0.6904 -54.8406 183.8676)" class="st8" width="68" height="16"/>
+	<line class="st8" x1="210.6" y1="131.2" x2="224" y2="117.2"/>
+	<rect x="152.4" y="72" transform="matrix(0.7234 0.6904 -0.6904 0.7234 106.8065 -106.5251)" class="st8" width="68" height="16"/>
+	<line class="st8" x1="211.2" y1="103.3" x2="225.2" y2="116.6"/>
+</g>
+</svg>

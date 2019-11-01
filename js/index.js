@@ -93,6 +93,10 @@ $(".infor-icon").click(function(){
   $("." + divClass).toggleClass("infor-ani");
 });
 
+$(".infor img").click(function(){
+	$(".infor").removeClass("infor-ani")
+})
+
 
 $(".btn-e").click(function(){
 	$(".sign-e").fadeIn()
@@ -103,5 +107,28 @@ $(".sign-e img").click(function(){
 })
 
 $(".btn-sign").click(function(){
-	alert("資料已送出")
-})
+	
+    if(!$("#name").val()){
+        return alert("你尚未填寫姓名");    
+    }
+
+    if(!$("#phone").val()){
+        return alert("你尚未填寫手機號碼");  
+    }
+
+    if(!$("#address").val()){
+        return alert("你尚未填寫地址");     
+    }
+
+    if(!$("#sex").val()){
+        return alert("你尚未填寫性別");     
+    }
+
+    if(!$("#mail").val()){
+        return alert("你尚未填寫電子郵件");     
+    }
+
+    alert("資料已送出")
+    $(".sign-e").fadeOut()
+});
+
