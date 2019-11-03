@@ -120,10 +120,6 @@ $(".btn-sign").click(function(){
         return alert("你尚未填寫地址");     
     }
 
-    if(!$("#sex").val()){
-        return alert("你尚未填寫性別");     
-    }
-
     if(!$("#mail").val()){
         return alert("你尚未填寫電子郵件");     
     }
